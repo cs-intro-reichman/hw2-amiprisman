@@ -31,9 +31,9 @@ public class Collatz {
             // Print the sequence 
             if (mode.equals("v")) {
                 System.out.println(sequence + " (" + (steps) + ")");
+				System.out.println("Every one of the first "+ N + " hailstone sequences reached 1");
             }
         }
-
         // Print the summary in concise mode
         if (mode.equals("c")) {
             System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
