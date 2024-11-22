@@ -20,6 +20,7 @@ public class Cheers {
                  }
                 
             }
+            System.out.println("What does that spell?");
             // second part that prints out the cheered word "times" number of times
              for (int x = 0; x < times; x++){
                 System.out.println(UpWord+ "!!!");
